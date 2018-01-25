@@ -1,32 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    margin: 240px auto;
+    margin: 240px auto 540px;
     background-image: url("../img/backgraund.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     }
+    h2 {
+        text-transform: uppercase;
+        font-family: 'Pathway Gothic One';
+        font-size: 25px;
+        color: #263555;
+    }
+    h3 {
+        font-family: Arial, sans-serif;
+        color: #263555;
+        font-size: 14px;
+        padding: 28px 0px 22px 0px;
+
+    }
+    h4 {
+        font-family: Arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #263555;
+    }
+    p {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        line-height: 1.3;
+        color: #4e5050;
+    }
+    .lorem {
+        padding: 0px 0px 53px;
+    }
+    
+    
 .wrapper {
     background-color: white;
     width: 480px;
-    padding: 30px;
+    padding: 38px;
     margin: auto;
 }
 .fly {
     width: 100%;
+    padding: 33px 0px 25px 0px;
 }
 .line {
     display: inline-block;
     background-color: rgb(163, 155, 155);
     height: 1px;
     width: 100%;
+    margin: 53px 0px;
 }
 .footer {
     display: inline-block;
     width: 50%;
     margin-right: -4px;
+    padding: 40px 0px 0px 20px;
+     
 }
 .footer-end {
     vertical-align: top;
     display: inline-block;
+    padding: 40px 0px 0px 10px;
     width: 50%;
 }
