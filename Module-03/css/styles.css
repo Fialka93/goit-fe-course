@@ -1,3 +1,8 @@
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 240px auto;
     background-image: url("../img/backgraund.jpg"); 
