@@ -1,8 +1,10 @@
+@import 'content-bottom.css';
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 body {
     margin: 40px auto 65px;
     background-image: url("../img/backgraund.jpg"); 
@@ -32,19 +34,19 @@ h4{
     line-height: 19px;
     font-weight: normal;
     color: #263555;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 }
 .article{
     display: inline-block;
-    width: 640px;
+    width: 690px;
     margin-left: 60px;
-    padding-top: 60px;
+    padding: 60px 40px 0 0;
     /* outline: 1px solid  #000; */
 }
 .sidebar{
     display: inline-block;
-    width: 200px;
-    margin-left: 60px;
+    width: 210px;
+    margin-right: 60px;
     padding-top: 60px;
     /* outline: 1px solid  #000; */
     vertical-align: top;
@@ -66,7 +68,7 @@ p{
     color: #4e5050;
 }
 li{
-    margin-bottom:35px; 
+    margin-bottom:20px; 
 }
 .list {
     counter-reset: li; 
@@ -90,4 +92,11 @@ li{
 }
 .List-page {
     padding-left: 35px;    
+}
+.line {
+    display: inline-block;
+    background-color: rgb(163, 155, 155);
+    height: 1px;
+    width: 904px;
+    margin-left: 60px;
 }
