@@ -26,7 +26,8 @@ h3{
     background-color: #fcfafa;
     padding:25px 20px 25px 24px ;
     margin-bottom: 35px; 
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+    border: 2px;
+    border-color: rgba(0, 0, 0, 0.1);
     border-radius: 1px;
 }
 .block::before {
