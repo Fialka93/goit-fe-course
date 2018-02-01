@@ -11,9 +11,7 @@
     margin-right: 60px;
     vertical-align: top;
 }
-.bottom{
 
-}
 h3{
     font-family: 'Pathway Gothic One';
     color: #263555;
@@ -26,6 +24,8 @@ h3{
     background-color: #fcfafa;
     padding:25px 20px 25px 24px ;
     margin-bottom: 35px; 
+    font-size: 15px;
+    border: 1px solid #dfdcdc;
 }
 .block::before {
     content: '\201c';
