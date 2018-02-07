@@ -35,6 +35,10 @@ li:first-child {
 li:hover {
     color: #263555;
 }
+.logo:hover {
+    color: #263555;
+    
+}
 .logo{
     font-family: Dorsa, sans-serif;
     font-size: 60px;
@@ -48,18 +52,44 @@ li:hover {
     vertical-align: middle;
     margin-top: 0;
 }
-.menu-item{
-    position: relative;
-    margin-top: 11px;
-    
-}
-.submenu {
-    position: absolute;
-    display: none;
-}
-.menu-item:hover>
-.submenu {
-    display: block; 
+.logo-line {
+    text-decoration: none;
 }
 
+.menu {
+    position: relative;
+}
+.menu-item{
+    position: absolute;
+    top: 25px;
+    left: 6%;
+    margin-top: 11px;
+    display: none;
+    background: white;
+}
+
+.menu:hover>
+.menu-item {
+    display: block; 
+    
+}
+.menu-item:before{
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 100px 100px 0 100px;
+        border-color: #ffffff transparent transparent transparent;
+    
+}
+.submenu{
+    margin-top: 11px;
+    padding: 0 30px;
+}
+.submenu-item {
+    text-decoration: none;
+    color: #6b7488;
+    text-align: center;
+}
 
