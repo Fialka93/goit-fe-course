@@ -79,7 +79,6 @@ a:hover {
     border-style: solid;
     border-width: 0 3px 4px 3px;
     border-color: transparent transparent #fff transparent;
-    
 }
 
 .menu:hover>
@@ -209,6 +208,13 @@ img{
     padding-left: 6px;
     font-weight: bold;
 }
+.destinations{
+    display: block;
+    height: auto;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .destinations-item{
     text-transform: uppercase;
     font-family: "Pathway Gothic One", sans-serif;
@@ -220,34 +226,28 @@ img{
     margin:auto;
     text-align: left;
 }
-.destinations{
-    display: block;
-    height: auto;
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .destinations-card{
     height: 270px;
     width: 288px;
-    margin-right: 18px;
+    margin-right: 14px;
     display: inline-block;
     position: relative;
 }
-.destinations-card:nth-child(even){
-    margin-left: -4px;
-}
+
 .destinations-card:last-child{
     margin-right: 0;
-    margin-left: -4px;
 }
 aside{
-    display: inline-block;
+    display: none;
     position: absolute;
     background: #193149;
     width: 55%;
     height: 100%;
     top:0px;
+}
+.destinations-card:hover> aside{
+    display: block;
 }
 h3{
     text-transform: uppercase;
@@ -265,3 +265,18 @@ p{
     color: #fff;
     margin: 0 9px;
 }
+.button-card{
+    display: block;
+    width: 44px;
+    height: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    background-color: #fff;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
