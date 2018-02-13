@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     box-sizing: border-box;
     margin: 0;
@@ -279,3 +280,288 @@ p{
         
 }
 
+=======
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../img/backgraund.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.heder{
+    width: 1024px;
+    margin: 45px auto 50px auto;
+    list-style: none;
+    text-align: center; 
+    position: relative;
+    vertical-align: middle;
+}
+
+li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 28px;
+    color: white;
+    padding: 0 30px 0 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #263555;
+}
+.logo:hover {
+    color: #263555;
+    
+}
+.logo{
+    font-family: Dorsa, sans-serif;
+    font-size: 60px;
+    line-height: 140px;
+    color: #263555;
+    height: 140px;
+    width: 140px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+    vertical-align: middle;
+    margin-top: 0;
+}
+.line {
+    text-decoration: none;
+    color: #263555;
+}
+
+.menu {
+    position: relative;
+}
+.menu-item{
+    position: absolute;
+    top: 20px;
+    left: 6%;
+    margin-top: 11px;
+    display: none;
+    background: white;
+    border-radius: 6px;
+}
+.menu-item::before{
+    content: "";
+    position: absolute;
+    top: -4px;
+    right: 53px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 3px 4px 3px;
+    border-color: transparent transparent #fff transparent;
+    
+}
+
+.menu:hover>
+.menu-item {
+    display: block; 
+}
+
+.submenu{
+    font-size: 20px;
+    margin-top: 11px;
+}
+.submenu-item {
+    color: #6b7488;
+    text-align: center;
+}
+
+.wrapper{
+    width: 1024px;
+    height: auto;
+    margin: 50px auto 60px  ;
+    background-color: #fff;
+    padding: 59px 0 60px; 
+    display: block;
+    position: relative;
+}
+.slider{
+    width: 900px;
+    height: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+img{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.slider-img{
+    position: absolute;
+}
+.title-h4{
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One';
+    font-size: 22.41px;
+    font-weight: 400;
+    color: #263555;
+    background-color: #fff;
+    display: block;
+    width: 225px;
+    height: 60px;
+    padding-left: 15px;
+    position: absolute;
+    top: 217px;
+    z-index: 10;
+    line-height: 60px;
+}
+.title-h2{
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One';
+    font-size: 34.42px;
+    font-weight: 400;
+    color: #fff;
+    text-overflow: clip;
+    background-color: #38afe5;
+    display: block;
+    width: 275px;
+    height: 60px;
+    padding-left: 15px;
+    position: absolute;
+    top: 277px;
+    line-height: 60px;
+}
+.button{
+    display: block;
+    
+    position: absolute;
+    top: 450px;
+    left: 37px;
+    
+}
+.left-button{
+    float: left;
+    height: 90px;
+    width: 45px;
+    background-color: #38afe5;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    position: relative;
+    z-index: 10;
+}
+.right-button{
+    display: inline-block;
+    height: 90px;
+    width: 45px;
+    background-color: #38afe5;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    z-index: 10;
+}
+.left-button:hover{
+    background: rgba(115, 176, 204, 0.7);
+}
+.right-button:hover{
+    background: rgba(115, 176, 204, 0.7);
+}
+.left-button::before{
+    content:'\2190';
+    top: 50%;
+    left: 50%;
+    transform:  translate(-10%, -50%);
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+.right-button::before{
+    content:'\2192';
+    top: 49%;
+    left: 50%;
+    transform:  translateY(-50%);
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    padding-left: 6px;
+    font-weight: bold;
+}
+.destinations{
+    display: block;
+    height: auto;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.destinations-item{
+    text-transform: uppercase;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 31.67px;
+    color: #263555;
+    display: block;
+    height: auto;
+    margin:57px auto 49px;
+    text-align: left;
+}
+
+.destinations-card{
+    height: 270px;
+    width: 288px;
+    margin-right: 14px;
+    display: inline-block;
+    position: relative;
+}
+
+.destinations-card:last-child{
+    margin-right: 0;
+}
+.city{
+    display: none;
+    position: absolute;
+    background: #193149;
+    width: 55%;
+    height: 100%;
+    top:0px;
+}
+.destinations-card:hover> .city{
+    display: block;
+}
+h3{
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-size: 30.42px;
+    font-weight: 100;
+    color: #e0e4e7;
+    text-align: center;
+    line-height: 50px;
+}
+p{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.41px;
+    color: #cbc6c6;
+    margin: 0 9px;
+}
+.button-card{
+    display: block;
+    width: 44px;
+    height: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    background-color: #fcf6f8;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+        
+}
+
+>>>>>>> 1ad80ca3328f2d31932b2d2069cdb968f4ea1759
