@@ -23,10 +23,10 @@ body{
 li{
     display: inline-block;
     text-transform: uppercase;
-    font-family: "Pathway Gothic One", sans-serif;
+    font-family: Pathway Gothic One, sans-serif;
     font-size: 28px;
     color: white;
-    padding: 0 30px 0 30px;
+    padding: 0 30px;
 }
 a{
     color: white;
@@ -37,7 +37,6 @@ a:hover {
 }
 .logo:hover {
     color: #263555;
-    
 }
 .logo{
     font-family: Dorsa, sans-serif;
@@ -54,6 +53,7 @@ a:hover {
 .line {
     text-decoration: none;
     color: #263555;
+    
 }
 
 .menu {
@@ -61,9 +61,9 @@ a:hover {
 }
 .menu-item{
     position: absolute;
-    top: 20px;
-    left: 6%;
-    margin-top: 11px;
+    top: 35px;
+    left: 22%;
+    width: 66px;
     display: none;
     background: white;
     border-radius: 6px;
@@ -72,12 +72,12 @@ a:hover {
     content: "";
     position: absolute;
     top: -4px;
-    right: 53px;
+    right: 30px;
     display: inline-block;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 3px 4px 3px;
+    border-width: 1px 4px 5px 4px;
     border-color: transparent transparent #fff transparent;
     
 }
@@ -89,7 +89,8 @@ a:hover {
 
 .submenu{
     font-size: 20px;
-    margin-top: 11px;
+    font-weight: 400;
+    padding: 0 10px;
 }
 .submenu-item {
     color: #6b7488;
@@ -99,7 +100,7 @@ a:hover {
 .wrapper{
     width: 1024px;
     height: auto;
-    margin: 50px auto 60px  ;
+    margin: 0 auto 60px  ;
     background-color: #fff;
     padding: 59px 0 60px; 
     display: block;
@@ -249,10 +250,10 @@ img{
 }
 h3{
     text-transform: uppercase;
-    font-family: 'Open Sans';
+    font-family: Open Sans;
     font-size: 30.42px;
     font-weight: 100;
-    color: #e0e4e7;
+    color: #c1c9cf;
     text-align: center;
     line-height: 50px;
 }
