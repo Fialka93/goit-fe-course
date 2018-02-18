@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1200px;
+    margin: 40px auto 90px;
+    align-content: center;
+    background-color: #fff;
+    /* outline: 2px solid #333; */
+    /* display: flex;
+    justify-content: space-between; */
+
+}
+.heder{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.menu{
+    display: block;
+    display: flex;
+    width: 490px;
+    justify-content: space-between;
+    align-items:flex-end;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:#95e1d3;
+    line-height: 14px;
+}
+.link{
+    color:#95e1d3;
+    text-decoration: none;
+}
+.link:hover{
+    color: #f38181;
+    text-decoration-line: underline;
+}
+.menu-logo{
+    color:#95e1d3;
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-decoration: none;
+}
+h3{
+    margin-top: 130px;
+    color: #333333;
+    font-size: 24px;
+    font-family: Kaushan Script;
+    font-weight: 400;
+    text-align: center;
+}
+h2{
+    margin-top: 22px;
+    color: #333333;
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pse::before {
+    width: 60px;
+    color:#f38181;
+    text-align: center;
+    margin: auto;
+
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* outline: 2px solid #333; */
+    
+}
+.content-item {
+    flex-basis: 275px;
+    margin-bottom: 100px;
+}
+h5{
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333333;
+}
+p{
+    color: #b6b6b6;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Команда */
+.team{
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    color: #999999;
+}
+.content-team{
+    flex-basis: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.mat{
+    display: flex;
+    position: relative;
+}
+.grd-Mat{
+    width: 380px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 380px;
+    /* display: none; */
+    background: linear-gradient(to top,#eed787,  #ef8a8a);
+}
+/* .socium{
+    p
+} */
+.name{
+    display: flex;
+    justify-content: space-around;
+    margin: 19px 0 90px;
+}
+.name-team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mat:hover> .grd-Mat{
+    display: flex;
+    position: absolute;
+}
