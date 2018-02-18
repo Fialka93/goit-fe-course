@@ -121,7 +121,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-basis: 380px;
-    /* display: none; */
+    display: none;
     background: linear-gradient(to top,#eed787,  #ef8a8a);
 }
 /* .socium{
