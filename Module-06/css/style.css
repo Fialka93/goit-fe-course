@@ -119,18 +119,20 @@ p{
 .foto{
     width: 380px;
     height: 470px;
+    position: relative;
 }
 .grd{
     width: 380px;
     height: 470px;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     flex-basis: 380px;
     display: none;
     background: linear-gradient(to top,#eed787,  #ef8a8a);
     opacity: 0.9;
-
+    position: relative;
+    
 }
 
 .socium{
@@ -170,5 +172,25 @@ p{
 .img:hover> .grd{
     display: flex;
     position: absolute;
+    top: -10px;
+    left: -10px;
     
+}
+.grd::before{
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 10px;
+    width: 100%;
+    background: #95e1d3;
+    height: 10px;
+}
+.grd::after{
+    position: absolute;
+    content: "";
+    right: -10px;
+    bottom: -10px;
+    width: 10px;
+    background: #95e1d3;
+    height: 100%;
 }
