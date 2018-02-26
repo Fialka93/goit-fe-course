@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1200px;
+    background: #fff;
+    margin: auto;
+}
+.menu{
+    padding: 75px 315px 0;
+}
+.menu-list{
+    display: inline-block;
+    text-transform: uppercase;
+    list-style: none;
+    width: 130px;
+}
+.menu-item{
+    text-align: center;
+    width: 570px;
+    margin: auto;
+}
+.menu-link{
+    text-decoration: none;
+    font-family: Playfair Display;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.menu-link:hover{
+    color: red;
+text-decoration-line: underline;
+}
+.menu-left{
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+}
+.menu-rihgt{
+    display: inline-block;
+    width: 420px;
+    margin-left: -4px;
+}
+.lifestyl{
+    display: inline-block;
+    margin: 100px 150px 0;
+}
+.title{
+    text-transform: uppercase;
+    padding-top: 30px; 
+    padding-bottom: 24px;
+    color: #c8c3b9;
+    font-size: 14px;
+    font-family: Ubuntu;
+    font-weight: 300;
+}
+h2{
+    font-family: Playfair Display;
+    font-size: 30px;
+    color: #626262;
+    font-weight: 400;
+    padding-bottom: 33px;
+}
+p{
+    color: #7d7d7d;
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.photodiary{
+    display: inline-block;
+    margin: 135px 150px 0;
+}
+
+.lifestyle-bottom{
+    display: inline-block;
+    margin: 140px 150px 0;
+}
+button{
+    display: block;
+    height: 58px;
+    width: 163px;
+    margin: 57px auto 70px;
+    color: #626262;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-weight: 400;
+}
