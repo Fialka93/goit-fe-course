@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
 .wrapper{
     width: 1200px;
     background: #fff;
@@ -22,12 +29,8 @@
     width: 570px;
     margin: auto;
 }
-.menu-link{
+.menu-link {
     text-decoration: none;
-    font-family: Playfair Display;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
     color: #626262;
 }
 .menu-link:hover{
@@ -54,22 +57,17 @@ text-decoration-line: underline;
     padding-bottom: 24px;
     color: #c8c3b9;
     font-size: 14px;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
+    line-height: 17px;
 }
 h2{
-    font-family: Playfair Display;
     font-size: 30px;
-    color: #626262;
-    font-weight: 400;
+    line-height: 36px;
     padding-bottom: 33px;
 }
 p{
     color: #7d7d7d;
-    font-family: Playfair Display;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
 }
 
 .photodiary{
@@ -86,9 +84,6 @@ button{
     height: 58px;
     width: 163px;
     margin: 57px auto 70px;
-    color: #626262;
     text-align: center;
-    font-family: Playfair Display;
     font-size: 20px;
-    font-weight: 400;
 }
