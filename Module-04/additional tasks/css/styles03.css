@@ -1,0 +1,15 @@
+.menu-list{
+    display: inline-block;
+}
+
+.menu-list{
+    color: #0E1116;
+    font-size: 24px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.menu-list::before{
+    content: "\2192";
+    margin-right: 5px;
+}

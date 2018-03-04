@@ -1,0 +1,16 @@
+.menu-list{
+    counter-increment: headline;
+    
+}
+.menu-item{
+    list-style: none;
+}
+.menu-list{
+    color: #0E1116;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+    .menu-list:before {
+    content: counter(headline, upper-roman);
+    margin-right: 15px;
+  }

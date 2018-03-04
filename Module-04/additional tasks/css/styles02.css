@@ -1,0 +1,15 @@
+.menu-list{
+    color: #0E1116;
+    font-size: 24px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.menu-list:nth-child(2) {  /* or 4n+1 */
+    background-color: #88292F;   
+}
+.menu-list:nth-child(3) {  /* or 4n+1 */
+    background-color: #5DB7DE;   
+}
+.menu-list:nth-child(4) {  /* or 4n+1 */
+    background-color: #0D5D56;   
+}
