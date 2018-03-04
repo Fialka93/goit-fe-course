@@ -7,30 +7,38 @@ header{
     background-color: #f1e0cd;
     width: 1000px;
     margin: auto;
-    /* display: block; */
     
 }
 .menu-item{
     text-align: center;
-    margin: 30px auto;
+    margin: auto;
     width: 1000px;
     height: 130px;
+    padding-left: 70px;
+    text-align: center;
 }
 .menu-list{
-    display: inline-block;
-    padding-right: 20px;
+    float: left;
     padding-top: 50px;
+    margin-right: 30px;
+    list-style: none;
+}
+.menu-list:last-child {
+    margin-right: 0px;
 }
 .menu-link{
+    display: block;
+    width: 110px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #626262;
+    color: #0E1116;
     font-size: 22px;
     line-height: 24px;
     font-weight: 400;
+    text-align: center;
+    
 }
 .menu-link:hover{
     color: #db1572;
     text-decoration-line: underline;
-    text-shadow: 0px 0px 10px #ffe601;
 }
