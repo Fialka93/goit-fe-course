@@ -29,6 +29,9 @@ body{
     width: 570px;
     margin: auto;
 }
+img{
+    display: block;
+}
 .menu-link {
     text-decoration: none;
     color: #626262;
