@@ -94,10 +94,6 @@ body{
     width: 255px;
     display: block;
     float: left;
-<<<<<<< HEAD
-    /* padding: 16px; */
-=======
->>>>>>> f0fe48bce663cb2a4a7eb80279d5a554de8d589f
     margin: 0 50px 50px 0;
 }
 .gallery-list-item:nth-of-type(4n+4) {
