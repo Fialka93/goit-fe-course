@@ -12,7 +12,6 @@ body{
 .wrapper{
     max-width: 1170px;
     margin: auto;
-    /* padding: 0 16px; */
 }
 .page-header{
     display: block;
