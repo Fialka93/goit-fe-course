@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* outline: 1px solid #333; */
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -11,8 +10,9 @@ body{
     color: #555252;
 }
 .wrapper{
-    width: 1110px;
+    max-width: 1170px;
     margin: auto;
+    /* padding: 0 16px; */
 }
 .page-header{
     display: block;
@@ -20,7 +20,13 @@ body{
     padding-top: 37px;
     margin-bottom: 110px;
 }
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
 .logo{
+    display: block;
     float: left;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
@@ -36,12 +42,13 @@ body{
     color: #1abc9c;
 }
 .menu-item{
-    display: inline-block;
-    padding-left: 568px;
+    display: block;
+    float: right;
     text-align: center;
+    padding: 8px 0;
 }
 .menu-list{
-    float: left;
+    display:inline-block;
     list-style: none;
     margin-right: 28px
 }
@@ -78,16 +85,17 @@ body{
     width: 165px;
     height: 7px;
     background: #1abc9c;
-    margin: 39px auto 0;
+    margin: 40px auto 0;
 }
 .gallery-list{
-    display: inline-block;
+    display: block;
 }
 .gallery-list-item{
     width: 255px;
     display: block;
     float: left;
-    margin: 0 30px 30px 0;
+    /* padding: 16px; */
+    margin: 0 50px 50px 0;
 }
 .gallery-list-item:nth-of-type(4n+4) {
     margin-right: 0;
@@ -102,8 +110,11 @@ body{
     background-color: #323232;
     
 }
-.gallery-list-title:hover{
+.gallery-list-item:hover> .gallery-list-title{
     background-color: #1abc9c;
+}
+.gallery-list-item:hover> .gallery-list-price{
+    background-color: #7fd9c7;
 }
 .gallery-list-price{
     display: block;
@@ -111,9 +122,7 @@ body{
     float: right;
     background-color: #8c8c8c;
 }
-.gallery-list-price:hover{
-    background-color: #7fd9c7;
-}
+
 .gallery-list-title,
 .gallery-list-price{
     height: 41px;
@@ -134,7 +143,7 @@ body{
     width: 350px;
     display: block;
     float: left;
-    margin: 0 30px 80px 0;
+    margin: 0 60px 80px 0;
 }
 .news-list-item:nth-of-type(3) {
     margin-right: 0;
@@ -173,5 +182,4 @@ body{
     text-align: center;
     border-radius: 3px;
     text-decoration: none;
-    
 }
