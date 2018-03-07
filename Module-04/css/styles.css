@@ -19,6 +19,11 @@ body{
     padding-top: 37px;
     margin-bottom: 120px;
 }
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
 .logo{
     display: block;
     float: left;
