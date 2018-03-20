@@ -1,17 +1,17 @@
 html {
     box-sizing: border-box;
-    
-  }
-  
+}
   *,
   *::before,
   *::after {
     box-sizing: inherit;
-  }
+}
+
 *{
     margin: 0;
     padding: 0;
-}  
+}
+
 .clearfix::after {
     display: table;
     content: "";
@@ -29,13 +29,14 @@ body{
     max-width: 100%;
     margin: auto;
 }
+
 .page-header{
     max-width: 1110px;
     margin: auto;
     display: block;
     background-color: #ffffff;
-    padding-top: 35px;
-    margin-bottom: 30px;
+    padding-top: 40px;
+    margin-bottom: 20px;
 }
 
 .menu{
@@ -111,9 +112,8 @@ body{
     position: absolute;
     width: 105px;
     height: 105px;
-    background-color: #4f9c8b;
+    background: rgba(26, 188, 156, 0.65);
     border: none;
-    opacity: 0.65;
     
 }
 .slide-button-prew, .slide-button-next:hover{
@@ -123,6 +123,9 @@ body{
     top: 50%;
     transform: translate(0, -50%);
     margin-left: -180px;
+}
+.slide-button-prew:hover{
+    background: rgba(26, 188, 156, 1);
 }
 .slide-button-prew::before{
     content: '\e686';
@@ -138,7 +141,9 @@ body{
     transform: translate(0, -50%);
     margin-right: -180px;
 }
-
+.slide-button-next:hover{
+    background: rgba(26, 188, 156, 1);
+}
 .slide-button-next::before {
     content: '\e684';
     font-size: 100px;
@@ -153,14 +158,12 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #333333;
-    opacity: 0.52;
+    background: rgba(0, 0, 2, 0.52);
 }
 .slide-image{
     display: block;
     max-width: 100%;
     height: auto;
-    
     margin: auto;
 }
 .slide h2{
@@ -191,10 +194,12 @@ body{
     left: 10px;
     width: 235px;
     height: 265px;
-    background: #737373;
+    background: rgba(0, 0, 0, 0.55);
     opacity: 0;
 }
-
+.collection-list:hover .collection-list-cart{
+    opacity: 1;
+}
 .collection-list-cart-bt{
     display: inline-block;
     position: absolute;
@@ -204,7 +209,6 @@ body{
     width: 166px;
     height: 50px;
     outline: 1px solid #ffffff;
-    
     font-size: 14px;
     color: #ffffff;
     text-transform: uppercase;
@@ -286,9 +290,7 @@ body{
 }
 
 
-.collection-list:hover .collection-list-cart{
-    opacity: 0.55;
-}
+
 .collection-list:hover .collection-link{
     background-color: #1abc9c;
 }
@@ -367,7 +369,7 @@ main{
 .collection-list:nth-child(4){
     margin-right: 0;
 }
-
+/* Footer */
 footer{
     position: relative;
     height: 90px;
