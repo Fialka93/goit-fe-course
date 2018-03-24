@@ -304,6 +304,7 @@ body{
 .team-social-network{
     display: flex;
     align-items: center;
+   
 }
 .socium-link{
     width: 57px;
@@ -312,6 +313,7 @@ body{
     background: #fce38a;
     background-repeat: no-repeat;
     background-position: center;
+    transition: background 0.2s linear;
     
 }
 
