@@ -351,14 +351,26 @@ body{
 .facebook{
     background-image: url(../img/facebook.png);
 }
+.facebook:hover{
+    background-image: url(../img/facebook-white.png);
+}
 .twitter{
     background-image: url(../img/twitter.png);
+}
+.twitter:hover{
+    background-image: url(../img/twitter-white.png);
 }
 .pinterest{
     background-image: url(../img/pinterest.png);
 }
+.pinterest:hover{
+    background-image: url(../img/pinterest-white.png);
+}
 .instagram{
     background-image: url(../img/insta.png);
+}
+.instagram:hover{
+    background-image: url(../img/instagram-white.png);
 }
 
 /* FOOTER */
