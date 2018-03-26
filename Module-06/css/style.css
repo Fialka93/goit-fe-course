@@ -40,7 +40,7 @@ body{
     min-width: 490px;
 }
 .menu-list{
-    padding-top: 5px;
+    /* padding-top: 5px; */
 }
 .menu-link {
     font-family: 'Montserrat', sans-serif;
