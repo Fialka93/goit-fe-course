@@ -81,9 +81,11 @@ body{
         transform: rotate(0);
     }
     100%{
+        
         transform: rotate(360deg);
     }
 }
+
 .menu-list:hover> .menu-link::after{
     opacity: 1;
 }
