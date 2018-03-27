@@ -18,10 +18,11 @@ body{
     font-size: 15px;
     line-height: 24px;
     text-decoration: none;
+    margin-top: 24px;
 }
 .wrapper{
     width: 1200px;
-    margin: 24px auto 0;
+    margin: auto;
 }
 .page-header{
     margin: 0 auto 124px;
