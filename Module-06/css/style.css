@@ -72,6 +72,7 @@ body{
     animation: logo-appear 2s
     
 }
+
 @keyframes logo-appear{
     0%{
         transform: translateY(-200px);
@@ -84,6 +85,7 @@ body{
         
         transform: rotate(360deg);
     }
+    
 }
 
 .menu-list:hover> .menu-link::after{
@@ -97,6 +99,7 @@ body{
 
 .services{
     max-width: 100%;
+    margin-bottom: 88px;
 }
 .name-services, .titul-team {
     font-family: 'Kaushan Script', sans-serif;
@@ -129,7 +132,6 @@ body{
     flex-wrap: wrap;
     padding: 0 10px;
     list-style: none;
-    margin-bottom: 88px;
 }
 .services-list-item{
     width: 380px;
@@ -261,8 +263,6 @@ body{
     color: #333333;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 80px;
-    
 }
 .team-position{
     color: #999999;
@@ -296,7 +296,9 @@ body{
     opacity: 0;
     transition: all 0.2s linear;
 }
-
+.team-list-conteiner{
+    margin-bottom: 80px;
+}
 .team-list-conteiner:hover .team-image {
     transform: translate(-10px, -10px);
 }
