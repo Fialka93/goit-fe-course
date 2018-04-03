@@ -203,7 +203,6 @@ body{
     padding: 16px 20px;
     line-height: 1.2;
     font-weight: 700;
-    text-transform: uppercase;
     border: none; 
     border-radius: 3px;
 }
@@ -213,7 +212,6 @@ body{
     height: 100%;
     line-height: 1.2;
     font-weight: 700;
-    text-transform: uppercase;
     padding: 16px 20px;
     border: none; 
     border-radius: 3px;
