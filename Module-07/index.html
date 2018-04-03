@@ -12,7 +12,7 @@
 
 <body>
     <div class="wrapper">
-        <header class="page-header">
+        <header class="page-header container">
             <h1 class="visually-hidden">Golden Site</h1>
             <nav class="navigation">
                 <a href="#" class="logo">Golden</a>
@@ -36,9 +36,9 @@
             </nav>
         </header>
         <main>
-            <section class="services">
-                <h2 class="services-title">Services</h2>
-                <p class="services-sub-title">Proin iaculis purus consequat sem cure. </p>
+            <section class="services container">
+                <h2 class="services-title name">Services</h2>
+                <p class="services-sub-title sub-name">Proin iaculis purus consequat sem cure. </p>
                 <ul class="services-list">
                     <li class="services-list-item basket">
                         <h3 class="services-list-title">E-Commerce</h3>
@@ -56,6 +56,25 @@
                             posuere odio in tincidunt.</p>
                     </li>
                 </ul>
+            </section>
+            <section class="Contact">
+                <h2 class="Contact-title name">Contact Us</h2>
+                <p class="Contact-sub-title sub-name">Proin iaculis purus consequat sem cure</p>
+                <form action="#" class="Contact-title-form container">
+                    <ul class="Contact-data-form">
+                        <li class="Contact-data-form-item">
+                            <input type="text" placeholder="Your Name *" name="user_name" required>
+                        </li>
+                        <li class="Contact-data-form-item">
+                            <input type="email" placeholder="your e-mail *" name="user_name" required>
+                        </li>
+                        <li class="Contact-data-form-item">
+                            <input type="text" placeholder="subject" name="user_name">
+                        </li>
+                    </ul>
+                    <textarea type="text" name="your_message" placeholder="Your Message..." cols="30" rows="11" required></textarea>
+                    <button type="submit" class="Contact-button">Send MESSAGE</button>
+                </form>
             </section>
         </main>
     </div>
