@@ -232,6 +232,30 @@ body{
     margin: 30px auto;
     cursor: pointer;
 }
+
+.Contact-data-form-item input:focus[type='email']:valid,
+.Contact-data-form-item input:focus[type='text']:valid,
+textarea:focus:valid 
+ {
+  outline: 2px solid green;
+
+}
+
+.Contact-data-form-item input:focus[type='email']:invalid,
+.Contact-data-form-item input:focus[type='text']:invalid,
+textarea:focus:invalid {
+  outline: 2px solid red;
+}
+
+.Contact-data-form-item input::placeholder,
+textarea::placeholder 
+{
+  color: #bbbbbb;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
   
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
