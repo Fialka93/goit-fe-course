@@ -94,8 +94,15 @@ body{
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-
 }
+
+.navigation-list-link:hover{
+    color: #fed136;
+}
+.navigation-list:focus {
+    color: #fed136;
+}
+
 
 /* SERVICES */
 
