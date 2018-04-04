@@ -164,7 +164,7 @@ body{
     background-image: url("../img/Icon-Basket.png");
 }
 .laptop::before{
-    background-image: url("../img/Icon-laptop.png");
+    background-image: url("../img/Icon-Laptop.png");
 }
 .lock::before{
     background-image: url("../img/Icon-Locked.png");
