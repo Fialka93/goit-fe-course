@@ -250,7 +250,7 @@ body {
   }
 
   .holiday-dreams{
-    max-width: 768px;
+/*     max-width: 768px; */
     min-height: 700px;
   }
 
@@ -308,9 +308,9 @@ body {
     text-align: center;
   }
 
-  .holiday-dreams{
-    max-width: 940px;
-  }
+/*   .holiday-dreams{
+    max-width: 100%;
+  } */
  
   .best-holiday-list{
     width: 940px;
