@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    min-width: 480px;
+    height: 100vh;
+    margin: auto;
+    padding: 10px 0;
+}
+.content{
+    width: 100%;
+    height: 50%;
+    background: #ffff00;
+
+}
+.sidebar{
+    width: 100%;
+    height: 50%;
+    background: #13b857;
+}
+@media screen and (min-width:768px){
+    .main{
+        display: flex;
+    }
+    .content{
+        max-width: 75%;
+        height: 100%;
+    }
+    .sidebar{
+        max-width: 25%;
+        height: 100%;
+    }
+}
