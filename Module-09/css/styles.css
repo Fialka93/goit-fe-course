@@ -227,36 +227,7 @@ background-color: #4e73db;
   width: 492px;
 }
 
-/* .perfect-partne-title{
-  font-size: 24px;
-  margin: 40px auto 34px;
-}
 
-.search-partner-button{
-  margin-bottom: 234px;
-}
-
-.best-holiday-list{
-  width: 492px;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: auto;
-}
-
-.other-partners-button{
-  margin-top: 36px;
-  align-content: center;
-}
-
-.search-partner{
-  padding-bottom: 40px;
-}
-
-.best-holiday-list-item:nth-child(n+3){
-  margin-bottom: 0;
-} */
 }
 
 
@@ -269,19 +240,4 @@ background-color: #4e73db;
   text-align: center;
 }
 
-
-/* .best-holiday-list{
-  width: 940px;
-  height: auto;
-  display: flex;
-}
-
-.best-holiday-list-item{
-  margin: 0 auto;
-}
-
-.holiday-dreams{
-  max-width: 100%;
-  min-height: 700px;
-} */
 }
