@@ -125,7 +125,6 @@ button {
 }
 
 .best-holiday-list-image{
-  margin-bottom: 20px;
   max-width: 120px;
   height: auto;
   position: relative;
@@ -158,7 +157,7 @@ button {
 .image{
   width: 120px;
   height: 120px;
-  margin: auto;
+  margin: 0 auto 20px;
   position: relative;
 }
 .icon{
