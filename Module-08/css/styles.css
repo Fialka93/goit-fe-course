@@ -1,157 +1,157 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-  
+
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
-  
+
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
- .wrapper{
-    margin: 0 auto;
-    padding: 0;
-    width: 320px;
-    text-align: center;
-    
- }
- .sign-up-list{
-     margin: 0 0 118px;
-     padding: 20px 0 0;
- }
-
- .header{
-   margin: 0 50px;
- }
- .logo {
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: none;
-  }
-
-  .log-in-list-button:hover,  .sign-up-list-button:hover {
-    border: 2px solid #ffffff;
-    border-radius: 20px;
-    cursor: pointer;
-
-  }
-
-  .log-in-list-button, .sign-up-list-button {
-    font-size: 14px;
-    color: #ffffff;
-    font-weight: bold;
-    text-align: center;
-    width: 90px;
-    height: 36px;
-    border: none;
-    background-color: initial;
-  }
+.wrapper{
+  margin: 0 auto;
+  padding: 0;
+  width: 320px;
+  text-align: center;
   
+}
+.sign-up-list{
+   margin: 0 0 118px;
+   padding: 20px 0 0;
+}
 
-  .holiday-dreams{
-    background-image: url(../img/bgrd-img.jpg);
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 70px;
-  }
+.header{
+ margin: 0 50px;
+}
+.logo {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
 
-  .dreams-title {
-    font-size: 30px;
-    color: #ffffff;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 34px;
-    margin-bottom: 18px;
-  }
+.log-in-list-button:hover,  .sign-up-list-button:hover {
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
 
-  .perfect-partne-title {
-    font-size: 18px;
-    font-weight: 300;
-    font-family: "Roboto";
-    color: #ffffff;
-    text-align: center;
-  }
-  .search-partner-button {
-    border-radius: 20px;
-    background-color: #ff4e50;
-    width: 280px;
-    height: 40px;
-    font-size: 14px;
-    color: #ffffff;
-    margin-bottom: 138px;
-    border-style: none;
-  }
-  button {
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    cursor: pointer;
-  }
+}
 
-  /* search-partner */
+.log-in-list-button, .sign-up-list-button {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  width: 90px;
+  height: 36px;
+  border: none;
+  background-color: initial;
+}
 
-  .other-partners-button {
-    border-style: solid;
-    border-width: 2px;
-    border-color: #ff4e50;
-    border-radius: 20px;
-    background-color: #ffffff;
-    width: 280px;
-    height: 40px;
-    color: #ff4e50;
 
-  }
+.holiday-dreams{
+  background-image: url(../img/bgrd-img.jpg);
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 70px;
+}
 
-  .search-partner-title{
-    margin: 0 0 16px;
-    padding: 0;
-  }
+.dreams-title {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 34px;
+  margin-bottom: 18px;
+}
+
+.perfect-partne-title {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto";
+  color: #ffffff;
+  text-align: center;
+}
+.search-partner-button {
+  border-radius: 20px;
+  background-color: #ff4e50;
+  width: 280px;
+  height: 40px;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 138px;
+  border-style: none;
+}
+button {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* search-partner */
+
+.other-partners-button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ff4e50;
+  border-radius: 20px;
+  background-color: #ffffff;
+  width: 280px;
+  height: 40px;
+  color: #ff4e50;
+
+}
+
+.search-partner-title{
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+.best-holiday-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.best-holiday-list-image{
+  margin-bottom: 20px;
+  max-width: 120px;
+  height: auto;
+  position: relative;
+}
+ .best-holiday-list-name{
+  font-size: 14px;
+  color: #333333;
+  font-weight: bold;
+  text-align: center;
+  line-height: 17px;
+  margin: 0 auto 16px;
+}
+
+.best-holiday-list-resume {
+  margin: auto;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #666666;
+  text-align: center;
+  width: 192px;
+}
+.best-holiday-list-item{
+  margin-bottom: 26px;
   
-  .best-holiday-list{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .best-holiday-list-image{
-    margin-bottom: 20px;
-    max-width: 120px;
-    height: auto;
-    position: relative;
-  }
-   .best-holiday-list-name{
-    font-size: 14px;
-    color: #333333;
-    font-weight: bold;
-    text-align: center;
-    line-height: 17px;
-    margin: 0 auto 16px;
-  }
-  
-  .best-holiday-list-resume {
-    margin: auto;
-    font-size: 14px;
-    font-family: "Roboto";
-    font-weight: 300;
-    color: #666666;
-    text-align: center;
-    width: 192px;
-  }
-  .best-holiday-list-item{
-    margin-bottom: 26px;
-    
-  }
+}
 .search-partner{
   padding-bottom: 56px;
 }
@@ -161,169 +161,127 @@ body {
   margin: auto;
   position: relative;
 }
+.icon{
+  border-style: solid;
+  border-width: 4px;
+  border-color: #ffffff;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 37px;
+  height: 37px;
+  z-index: 1;
+}
 
-.icon-1::after {
-  content: '';
-  background-image: url(../img/icon-1.png);
-  border-style: solid;
-  border-width: 4px;
-  border-color: #ffffff;
-  border-radius: 50%;
-  background-color: #ff4e50;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 37px;
-  height: 37px;
-  z-index: 1;
+.icon-1 {
+background-image: url(../img/icon-1.png);
+background-color: #ff4e50;
 }
-.icon-2::after {
-  content: '';
-  background-image: url(../img/icon-2.png);
-  border-style: solid;
-  border-width: 4px;
-  border-color: #ffffff;
-  border-radius: 50%;
-  background-color: #ffa507;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 37px;
-  height: 37px;
-  z-index: 1;
+.icon-2 {
+background-image: url(../img/icon-2.png);
+background-color: #ffa507;
 }
-.icon-3::after {
-  content: '';
-  background-image: url(../img/icon-3.png);
-  border-style: solid;
-  border-width: 4px;
-  border-color: #ffffff;
-  border-radius: 50%;
-  background-color: #1cd7ad;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 37px;
-  height: 37px;
-  z-index: 1;
+.icon-3 {
+background-image: url(../img/icon-3.png);
+background-color: #1cd7ad;
 } 
-.icon-4::after {
-  content: '';
-  background-image: url(../img/icon-4.png);
-  border-style: solid;
-  border-width: 4px;
-  border-color: #ffffff;
-  border-radius: 50%;
-  background-color: #4e73db;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 37px;
-  height: 37px;
-  z-index: 1;
+.icon-4 {
+background-image: url(../img/icon-4.png);
+background-color: #4e73db;
 }
 
 /* @MEDIA */
 
 @media screen and (min-width: 748px){
 
-  .wrapper {
-    width: 768px;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-  }
+.wrapper {
+  width: 768px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
 
-  .header{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
+.header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
 
-  .holiday-dreams{
-/*     max-width: 768px; */
-    min-height: 700px;
-  }
+.holiday-dreams{
+  min-height: 700px;
+}
 
-  .logo{
-    display: block;
-    margin-bottom: 118px;
-    padding-top: 20px;
-  }
+.logo{
+  display: block;
+  margin-bottom: 118px;
+  padding-top: 20px;
+}
 
-  .dreams-title{
-    margin: 0 auto;
-    padding: 0;
-    font-size: 50px;
-    width: 492px;
-  }
+.dreams-title{
+  margin: 0 auto;
+  padding: 0;
+  font-size: 50px;
+  width: 492px;
+}
 
-  .perfect-partne-title{
-    font-size: 24px;
-    margin: 40px auto 34px;
-  }
+.perfect-partne-title{
+  font-size: 24px;
+  margin: 40px auto 34px;
+}
 
-  .search-partner-button{
-    margin-bottom: 234px;
-  }
+.search-partner-button{
+  margin-bottom: 234px;
+}
 
-  .best-holiday-list{
-    width: 492px;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: auto;
-  }
+.best-holiday-list{
+  width: 492px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
 
-  .other-partners-button{
-    margin-top: 36px;
-  }
+.other-partners-button{
+  margin-top: 36px;
+}
 
-  .search-partner{
-    padding-bottom: 40px;
-  }
-  
-  .best-holiday-list-item:nth-child(n+3){
-    margin-bottom: 0;
-  }
+.search-partner{
+  padding-bottom: 40px;
+}
+
+.best-holiday-list-item:nth-child(n+3){
+  margin-bottom: 0;
+}
 }
 
 
 @media screen and (min-width: 940px)  {
 
-  .wrapper {
-    width: 940px;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-  }
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
 
-/*   .holiday-dreams{
-    max-width: 100%;
-  } */
- 
-  .best-holiday-list{
-    width: 940px;
-    height: auto;
-    display: flex;
-  }
 
-  .best-holiday-list-item{
-    margin: 0 auto;
-  }
+.best-holiday-list{
+  width: 940px;
+  height: auto;
+  display: flex;
+}
 
-  .holiday-dreams{
-    max-width: 100%;
-    min-height: 700px;
-  }
+.best-holiday-list-item{
+  margin: 0 auto;
+}
+
+.holiday-dreams{
+  max-width: 100%;
+  min-height: 700px;
+}
 }
