@@ -31,18 +31,12 @@ body{
     font-family: "Roboto", sans-serif;
     color: #999999;
     font-size: 15px;
-    line-height: 24px;
     text-decoration: none;
-    /* margin-top: 24px; */
     
 }
-.wrapper{
-    width: 1200px;
-    margin: auto;
-    position: relative;
-    
-}
+
 .page-header{
+    max-width: 1200px;
     margin: 0 auto 124px;
     position: absolute;
     top: 0;
@@ -64,7 +58,11 @@ body{
 .menu-item{
     min-width: 620px;
 }
-
+.menu-link-icon{
+    width: 22px;
+    height: 17px;
+    fill: #ffffff;
+}
 .menu-link {
     font-family: 'Montserrat', sans-serif;
     color:#ffffff;
@@ -116,6 +114,9 @@ body{
 .menu-list:hover> .menu-link{
     color: #fce38a;
 }
+.menu-link-icon:hover{
+    fill: #fce38a;
+}
 .banner{
     display: flex;
     justify-content: center;
@@ -156,6 +157,7 @@ body{
     height: 40px;
     background: none;
     border: 2px solid #ffffff;
+    cursor: pointer;
 }
 .banner-gradient{
     min-width: 100%;
@@ -231,7 +233,6 @@ body{
 }
 .style::before{
     content: '';
-    /* display: block; */
     height: 35px;
     min-width: 100%;
     position: absolute;
@@ -241,23 +242,23 @@ body{
 }
 
 .alarm::before{
-    background-image: url(../img/alarm.png);
+    background-image: url(../img/ico/social/alarm.svg);
 }
 
 .line_graph::before{
-    background-image: url(../img/line_graph.jpg);
+    background-image: url(../img/ico/social/line.svg);
 }
 .computer::before{
-    background-image: url(../img/computer.png);
+    background-image: url(../img/ico/social/comp.svg);
 }
 .book::before{
-    background-image: url(../img/book.png);
+    background-image: url(../img/ico/social/book.svg);
 }
 .home::before{
-    background-image: url(../img/home.png);
+    background-image: url(../img/ico/social/home.svg);
 }
 .image::before{
-    background-image: url(../img/image.png);
+    background-image: url(../img/ico/social/image.svg);
 }
 .titul-team{
     margin-bottom: 88px;
@@ -357,48 +358,25 @@ body{
     width: 57px;
     height: 57px;
     margin: 1px;
-    /* background: #fce38a; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    transition: 0.3s linear;
+    transition: 0.2s linear;
 }
 .socials__icon{
     display: block;
     padding: 25%;
     background: #fce38a;
+    fill:#f38181;
+    
 }
 
-.team-social-network:hover .socials__icon{
+.socials__icon:hover{
     background-color: #f38181;
     opacity: 1;
     fill: #ffffff;
-    /* transition: fill 0.2s linear; */
+    transition: fill 0.2s linear;
 }
-/* .facebook{
-    background-image: url(../img/facebook.png);
-} */
-/* .facebook:hover{
-    background-image: url(../img/facebook-white.png);
-} */
-/* .twitter{
-    background-image: url(../img/twitter.png);
-}
-.twitter:hover{
-    background-image: url(../img/twitter-white.png);
-}
-.pinterest{
-    background-image: url(../img/pinterest.png);
-}
-.pinterest:hover{
-    background-image: url(../img/pinterest-white.png);
-}
-.instagram{
-    background-image: url(../img/insta.png);
-}
-.instagram:hover{
-    background-image: url(../img/instagram-white.png);
-} */
 
 /* FOOTER */
 footer{
@@ -421,7 +399,7 @@ footer::before{
 p{
     color: #333333;
 }
-.Laaqiq{
+.copyright{
     color: #f38181;
 }
 form{
@@ -435,13 +413,13 @@ form *{
     height: 40px;
     border: 1px solid #e7e7e7;
 }
-.email{
+.contact-email{
     font-style: italic;
     font-weight: 300;
     color: #cccccc;
     border-right: 0;
 }
-.submit{
+.contact-submit{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: bold;
@@ -453,3 +431,7 @@ form *{
     height: 40px;
     border-left: 0;
 }
+
+/* @media (min-resolution: 192dpi), (min-resolution: 2dppx){
+    
+} */
