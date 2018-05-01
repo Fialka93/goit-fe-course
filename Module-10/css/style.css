@@ -2,21 +2,6 @@ html {
     box-sizing: border-box;
   }
 
-  /* .Layer_15 {
-    background-image: url("Layer 15.png");
-    width: 1920px;
-    height: 1134px;
-  }
-   */
-   /* .picture {
-    background-image: -moz-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
-    width: 1920px;
-    height: 1000px;
-  }
-   */
-  
   *,
   *::before,
   *::after {
@@ -32,15 +17,21 @@ body{
     color: #999999;
     font-size: 15px;
     text-decoration: none;
-    
 }
-
+.banner{
+    min-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 46px;
+}
 .page-header{
-    max-width: 1200px;
+    min-width:1200px;
     margin: 0 auto 124px;
     position: absolute;
     top: 0;
-    min-width: 1200px;
     padding-top: 24px;
     z-index: 10;
 
@@ -117,13 +108,11 @@ body{
 .menu-link-icon:hover{
     fill: #fce38a;
 }
-.banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin-bottom: 46px;
+.menu-list:hover> .icon::after{
+    opacity: 0;
+    text-decoration: none;
 }
+
 .banner-name{
     position: absolute;
     color: #ffffff;
