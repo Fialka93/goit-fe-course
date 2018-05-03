@@ -1,0 +1,26 @@
+link
+
+banner
+
+page-header
+
+menu
+  menu__logo
+  menu__item
+  menu__list
+  menu__link
+  menu__link--icon
+
+ banner__gradient
+ banner__name
+ banner__title
+ banner__button
+
+Work
+
+services
+  services__name
+  services__name--item
+  services__list
+  services__list--item
+  services__title
