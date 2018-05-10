@@ -1,0 +1,28 @@
+{
+  "name": "goit-fe-course",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/Fialka93/goit-fe-course/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "\t",
+  "scripts": {
+    "scss:build": "node-sass module-11/src/scss/styles.scss -o module-11/src/css",
+    "scss:watch": "node-sass --watch module-11/src/scss/styles.scss -o module-11/src/css",
+    "build": "npm run scss:build && npm run scss:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fialka93/goit-fe-course.git"
+  },
+  "keywords": [
+    "Tvf20011"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fialka93/goit-fe-course/issues"
+  },
+  "homepage": "https://github.com/Fialka93/goit-fe-course#readme",
+  "dependencies": {
+    "node-sass": "^4.9.0"
+  },
+  "devDependencies": {}
+}
