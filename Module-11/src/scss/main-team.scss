@@ -1,0 +1,106 @@
+/* TEAM */
+.team__subtitle{
+    @extend %subtitle;
+}
+.team__title{
+    @extend %title;
+    margin-bottom: 88px;
+    &::after{
+    @extend %psevdo;
+    }
+} 
+
+.team__description{
+    display: block;
+    color: $main-color;
+    max-width: 1200px;
+    margin: 0 auto 88px;
+    text-align: center;
+
+}
+.team__list{
+    @extend %list;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.team__image{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    position: absolute;
+    transition: all 0.2s linear;
+}
+.team__name{
+    font-family: $secondary-font;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: $main-color;
+    @extend %link;
+}
+.team__position{
+    color: $primary-styles;
+    text-transform: none;
+    font-family: $primary-font;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+}
+.team__item{
+    display: block;
+}
+
+.team__item-social{
+    width: 380px;
+    height: 470px;
+    position: relative;
+    margin-bottom: 38px;
+    background: $substrate-color;
+}
+
+.team__social-group{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top,rgba(238, 215, 135, 0.9), rgba(239, 138, 138, 0.9));
+    list-style: none;
+    position: absolute;
+    display: flex;
+    justify-content: center; 
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.team__container{
+    margin-bottom: 80px;
+    &:hover .team__image {
+    transform: translate(-10px, -10px);
+    }
+    &:hover .team__social-group {
+    transform: translate(-10px, -10px);
+    opacity: 1;
+    }
+}
+
+.team__social-network{
+    display: flex;
+    align-items: center;
+}
+.team__socium-link {
+    @extend %social-icon;
+}
+.team__socials-icon{
+    @extend %social-icon;
+    display: block;
+    padding: 25%;
+    background: #fce38a;
+    fill:$line-color;
+    &:hover{
+        background-color: $line-color;
+        opacity: 1;
+        fill: $secondary-styles;
+        transition: fill 0.2s linear;
+    }
+}
